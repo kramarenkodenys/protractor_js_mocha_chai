@@ -1,0 +1,22 @@
+{
+  "name": "autobots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "protractor": "^6.0.0"
+  },
+  "scripts": {
+    "test": "protractor protractor.conf.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
+  },
+  "author": "",
+  "license": "ISC"
+}
